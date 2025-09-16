@@ -4,12 +4,6 @@
 Atualmente sou estudante de Analise e desenvolvimento de sistemas.
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=HTML5&logoColor=#EB3D15"/>
-  <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=CSS3&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-</p>
-
 ---
 
 ### 💻 Sobre mim
