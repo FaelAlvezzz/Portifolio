@@ -1,26 +1,25 @@
 <h1 align="center">Olá! Eu sou o Rafael Alves 👋</h1>
 
-<p align="center">
-Atualmente sou estudante de Analise e desenvolvimento de sistemas.
-</p>
-
 ---
 
 ### 💻 Sobre mim
 
-- 📚 Estudo **Analise e desenvolvimento de sistemas**
-- 💡 Tenho habilidades com:
-  - HTML, CSS, JavaScript
-  - Python, Java
+<p aling="center">Sou estudante de Analise e desenvolvimento de sistemas, sou o curioso gosto de querer entender como funciona um aplicativo, site, programa, gosto de saber oque rola por de trás dos panos. Gosto de acreditar que um site sem segurança e sem o entendimento do back-end ele é apenas um papel estilizado, por isso foco meus estudos em linguagens de back-end comecei com JavaScript com Node.js, mas por conta da faculdade fui gostando de JAVA foi me trazendo um entendimento melhor da dificuldade que essa área trás para nos. Desde pequeno quis saber como tudo funcionava e hoje entendo 1% mas estou em busca de cada dia entender mais e mais.</p>
 
 ---
 
 ### 📊 Estatísticas
 
 <a href="https://github.com/JEAND1AS">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaelAlvezzz&layout=compact&langs_count=7&theme=dracula"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FaelAlvezzz&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FaelAlvezzz&layout=compact&langs_count=7&theme=dark"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=FaelAlvezzz&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
 </a>
+
+---
+### 🧠 Tecnologias que estou aprendendo
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" height="40px"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" height="40px"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" height="40px"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" height="40px"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" height="40px"/>  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" height="40px"/>
+
 
 ---
 
