@@ -71,7 +71,7 @@ Você pode visualizar o portfólio diretamente pelo [https://faelalvezzz.github.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://faelalvezzz.github.io/Portifolio/](https://faelalvezzz.github.io/Portifolio/)
+    git clone [gh repo clone FaelAlvezzz/Portifolio](gh repo clone FaelAlvezzz/Portifolio)
     ```
 2.  **Abra o arquivo:**
     Simplesmente abra o arquivo `index.html` em qualquer navegador (Chrome, Firefox, etc.). Não é necessário servidor.
