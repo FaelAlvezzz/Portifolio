@@ -121,6 +121,7 @@ body {
 }
 
 .texto-sobre {
+    margin: 20px;
     text-align: justify;
     flex-grow: 1;
 }
@@ -142,6 +143,7 @@ body {
 
 /* PROJETOS */
 .projetos {
+    margin: 20px;
     background-color: var(--cor-fundo); /*Cor de fundo claro para destacar os projetos*/
     padding-top: 50px;
     padding-bottom: 50px;
