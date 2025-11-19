@@ -96,6 +96,11 @@ body {
     color: var(--cor-principal); /* Cor de Destaque */
 }
 
+.titulo {
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--cor-principal);
+}
+
 /* SEÇÃO SOBRE MIM */
 .sobre-mim {
     display: flex; /* Flexbox para alinhar lado a lado em telas grandes */
@@ -114,10 +119,17 @@ body {
 .foto-perfil {
     width: 250px;
     height: 250px;
+    margin: 15px;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid var(--cor-principal);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.foto-perfil:hover {
+    box-shadow: 0 0 20px var(--cor-principal);
+    transform: scale(1.1);
 }
 
 .texto-sobre {
