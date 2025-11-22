@@ -1,0 +1,86 @@
+/* Media Query para responsividade do Header */
+@media (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .main-nav {
+        margin-top: 10px;
+        gap: 15px;
+    }
+}
+
+/* Media Query da seção Sobre mim */
+@media (max-width: 768px) {
+    .sobre-mim {
+        flex-direction: column; /* Em telas pequenas, a imagem fica em cima do texto */
+        text-align: center;
+        margin-top: 130px;
+    }
+    .visualg {
+        margin-bottom: 20px;
+    }
+    .texto-sobre {
+        text-align: left; /* Mantém o texto justificado ou alinhado à esquerda */
+    }
+}
+
+/* Media Query Projetos */
+@media (max-width: 400px) {
+    .botoes-projeto {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .container-projetos {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 600px) {
+    .container-projetos {
+        grid-template-columns: 1fr; 
+    }
+}
+
+/* Media Query das habilidades */
+@media (max-width: 1000px) {
+    .icones-grid {
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+    }
+    .stack-item {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icones-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .stack-item {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icones-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stack-item {
+        font-size: 25px;
+    }
+}
+
+/* Responsividade CTA */
+@media (max-width: 550px) {
+    .cta-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-cta {
+        width: 80%;
+    }
+}

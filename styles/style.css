@@ -1,0 +1,66 @@
+@import './main-header.css';
+@import './sobre-mim.css';
+@import './icones.css';
+@import './projetos.css';
+@import './media-query.css';
+@import './cta.css';
+@import './tipografia.css';
+
+:root {
+    --cor-principal: #00b400;
+    --cor-secundaria: #333333;
+    --cor-texto-claro: #FFFFFF;
+    --cor-fundo: #F4F4F4;
+    --cor-hover: #017501;
+}
+
+*{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif; 
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    background-color: var(--cor-fundo); /* Cor de Fundo Principal */
+    color: var(--cor-secundaria); /* Cor de Texto */
+    line-height: 1.6;
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: forwards;
+}
+
+/* Estilo de suavidade para o site */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* FOOTER */
+.roda-pe {
+    background-color: var(--cor-secundaria); 
+    color: var(--cor-fundo); 
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.roda-pe a {
+    color: var(--cor-fundo);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.roda-pe a:hover {
+    color: var(--cor-principal); 
+    transform: scale(1.1); 
+}

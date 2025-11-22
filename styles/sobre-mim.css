@@ -1,0 +1,40 @@
+
+/* SEÇÃO SOBRE MIM */
+.sobre-mim {
+    display: flex; /* Flexbox para alinhar lado a lado em telas grandes */
+    flex-direction: column; /* Padrão para telas pequenas */
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 118px;
+    margin-top: 80px;
+}
+
+.visualg {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+/* A imagem de perfil deve ser circular e centralizada */
+.foto-perfil {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid var(--cor-principal);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease-in-out;
+}
+
+.foto-perfil:hover {
+    box-shadow: 0 0 20px var(--cor-principal);
+    transform: scale(1.1);
+}
+
+.texto-sobre {
+    margin: 20px;
+    text-align: justify;
+    flex-grow: 1;
+}

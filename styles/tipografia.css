@@ -1,0 +1,11 @@
+/* Estilo do texto */
+.titulo, .sub-titulo, .sub-titulo-form {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--cor-principal); /* Cor de Destaque */
+}
+
+.titulo {
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--cor-principal);
+}

@@ -1,0 +1,53 @@
+/* CHAMADA PARA AÇÃO */
+.cta-contato {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cta-contato .sub-titulo {
+    margin-bottom: 10px;
+}
+
+.cta-contato p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.cta-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-cta {
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Botão Primário (E-mail/Contrate) */
+.btn-primario {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto-claro);
+}
+
+.btn-primario:hover {
+    background-color: var(--cor-hover);
+    transform: translateY(-2px);
+}
+
+/* Botão Secundário (GitHub) */
+.btn-secundario {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto-claro);
+}
+
+.btn-secundario:hover {
+    background-color: #1a1a1a;
+    transform: translateY(-2px);
+}

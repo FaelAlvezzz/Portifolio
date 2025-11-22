@@ -1,0 +1,47 @@
+/* Estilo Header e NavBar*/
+.main-header {
+    background-color: rgba(0, 0, 0, 0.767);
+    backdrop-filter: blur(10px);
+    color: var(--cor-texto-claro);
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.5s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.main-header .logo {
+    margin: 0;
+    font-size: 24px;
+    color: var(--cor-principal);
+}
+
+/* Estilo de navegação */
+.main-nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    color: var(--cor-texto-claro);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--cor-principal);
+}
+
+.transparent-header {
+    background-color: rgba(51, 51, 51, 0.2); 
+    box-shadow: none;
+}

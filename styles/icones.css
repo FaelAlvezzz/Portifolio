@@ -1,0 +1,22 @@
+/* Estilos das Stacks */
+.icones-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(60px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.stack-item {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    font-size: 25px;
+    color: var(--cor-secundaria);
+}
+
+.stack-item i {
+    margin: 10px;
+    padding: 10px;
+}
+
