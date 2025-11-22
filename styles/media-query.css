@@ -46,13 +46,14 @@
 }
 
 /* Media Query das habilidades */
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
     .icones-grid {
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         align-items: center;
+        margin: 30px;
     }
     .stack-item {
-        font-size: 35px;
+        font-size: 70px;
     }
 }
 
