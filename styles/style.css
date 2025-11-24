@@ -5,6 +5,7 @@
 @import './media-query.css';
 @import './cta.css';
 @import './tipografia.css';
+@import './timeline.css';
 
 :root {
     --cor-principal: #00b400;
@@ -20,6 +21,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Arial', 'Helvetica', sans-serif; 
     margin: 0;
