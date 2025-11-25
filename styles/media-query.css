@@ -1,5 +1,86 @@
-/* Media Query para responsividade do Header */
-@media (max-width: 600px) {
+/* Media Query Mobiles */
+@media (min-width: 320px) and (max-width: 480px) {
+    /* Tipografia */
+    .titulo, .subtitulo {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: var(--cor-principal); /* Cor de Destaque */
+    }
+
+    .titulo {
+        font-weight: bold;
+        text-shadow: 0 0 5px var(--cor-principal);
+    }
+    
+    /* Header */
+    .main-header {
+        flex-direction: column;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .main-nav {
+        margin-top: 5px;
+        gap: 5px;
+    }
+
+    /* Sobre Mim */
+    .sobre-mim {
+        flex-direction: column; /* Em telas pequenas, a imagem fica em cima do texto */
+        text-align: center;
+        margin-top: 130px;
+    }
+    .visualg {
+        margin-bottom: 20px;
+    }
+    .texto-sobre {
+        text-align: center; /* Mantém o texto justificado ou alinhado à esquerda */
+    }
+
+    /* Habilidades */
+    .icones-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .stack-item {
+        font-size: 40px;
+    }
+
+    /* Projetos */
+    .botoes-projeto {
+        flex-direction: column;
+    }
+    .container-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    /* Jornada */
+    .timeline-item-svg img {
+        max-width: 100vw;
+        max-height: 100vh;
+    }
+
+    /* Chamada de ação */
+    .cta-botoes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-cta {
+        width: 80vw;
+    }
+
+    /* Roda pé */
+    .main-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
+
+/* Media Query Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* Header */
     .main-header {
         flex-direction: column;
         padding: 10px 20px;
@@ -9,10 +90,8 @@
         margin-top: 10px;
         gap: 15px;
     }
-}
-
-/* Media Query da seção Sobre mim */
-@media (max-width: 768px) {
+    
+    /* Sobre Mim */
     .sobre-mim {
         flex-direction: column; /* Em telas pequenas, a imagem fica em cima do texto */
         text-align: center;
@@ -24,29 +103,36 @@
     .texto-sobre {
         text-align: left; /* Mantém o texto justificado ou alinhado à esquerda */
     }
-}
 
-/* Media Query Projetos */
-@media (max-width: 400px) {
-    .botoes-projeto {
+    /* Habilidades */
+    .icones-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .stack-item {
+        font-size: 35px;
+    }
+
+    /* Jornada */
+
+    
+    /* Projetos */
+    .container-projetos {
+        display: grid;
+        grid-template-columns: none;
+    }
+    
+    /* Chamada de ação */
+    .cta-botoes {
         flex-direction: column;
+        align-items: center;
     }
-}
-
-@media (max-width: 992px) {
-    .container-projetos {
-        grid-template-columns: repeat(2, 1fr); 
+    .btn-cta {
+        width: 80%;
     }
+    
 }
-
-@media (max-width: 600px) {
-    .container-projetos {
-        grid-template-columns: 1fr; 
-    }
-}
-
-/* Media Query das habilidades */
-@media (max-width: 1400px) {
+/* Media Query Desktop */
+@media (min-width: 1025) and (max-width: 1440px) {
     .icones-grid {
         grid-template-columns: repeat(4, 1fr);
         align-items: center;
@@ -55,33 +141,7 @@
     .stack-item {
         font-size: 70px;
     }
-}
 
-@media (max-width: 768px) {
-    .icones-grid {
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .stack-item {
-        font-size: 30px;
-    }
-}
+    /* Jornada */
 
-@media (max-width: 480px) {
-    .icones-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .stack-item {
-        font-size: 25px;
-    }
-}
-
-/* Responsividade CTA */
-@media (max-width: 550px) {
-    .cta-botoes {
-        flex-direction: column;
-        align-items: center;
-    }
-    .btn-cta {
-        width: 80%;
-    }
 }
