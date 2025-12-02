@@ -2,13 +2,13 @@
 /* SEÇÃO SOBRE MIM */
 .sobre-mim {
     display: flex; /* Flexbox para alinhar lado a lado em telas grandes */
-    flex-direction: column; /* Padrão para telas pequenas */
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 40px;
     padding-top: 50px;
     padding-bottom: 118px;
-    margin-top: 80px;
+    margin: 40px;
 }
 
 .visualg {
