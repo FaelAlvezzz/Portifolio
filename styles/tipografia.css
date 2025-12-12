@@ -8,6 +8,7 @@
 }
 
 .titulo {
+    font-size: 50px;
     font-weight: bold;
     text-shadow: 0 0 5px var(--cor-principal);
 }

@@ -31,7 +31,7 @@
 }
 
 .projeto h3 {
-    font-size: 1.3em;
+    font-size: 23px;
     margin-bottom: 10px;
     text-align: center;
     color: var(--cor-principal);
@@ -39,8 +39,8 @@
     margin-bottom: 10px;
 }
 
-.projeto p {
-    font-size: 0.95em;
+.texto-projeto {
+    font-size: 18px;
     color: #555;
     min-height: 80px;
 }
@@ -88,7 +88,7 @@
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 18px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     white-space: nowrap; 
 }
