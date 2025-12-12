@@ -7,7 +7,6 @@
     align-items: center;
     gap: 40px;
     padding-top: 50px;
-    padding-bottom: 118px;
     margin: 40px;
 }
 
@@ -18,8 +17,8 @@
 
 /* A imagem de perfil deve ser circular e centralizada */
 .foto-perfil {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     margin: 20px;
     border-radius: 50%;
     object-fit: cover;
@@ -35,8 +34,8 @@
 
 .texto-sobre {
     margin: 40px;
+    padding: 40px;
     text-align: justify;
     flex-grow: 1;
-    font-size: 23px;
-    padding: 40px;
+    font-size: 16px;
 }

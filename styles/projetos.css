@@ -10,7 +10,7 @@
     display: grid;
     /* Telas grandes: 3 colunas */
     grid-template-columns: repeat(3, 1fr); 
-    gap: 30px;
+    gap: 40px;
 }
 
 .projeto {
@@ -40,14 +40,14 @@
 }
 
 .texto-projeto {
-    font-size: 18px;
+    font-size: 15px;
     color: #555;
     min-height: 80px;
 }
 
 /* Estilo para as tags de ferramentas */
 .ferramentas {
-    font-size: 60px;
+    font-size: 45px;
     margin-top: 15px;
     margin-bottom: 15px;
 }
