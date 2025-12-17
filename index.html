@@ -12,10 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header" id="mainHeader">
         <h1 class="logo">Meu portfólio</h1>
         
-        <nav class="main-nav">
+        <button id="menuToggle" class="mobile-menu-toggle">☰</button>
+
+        <nav class="main-nav" id="mainNav">
             <a href="#inicio" class="nav-link">Início</a>
             <a href="#habilidades" class="nav-link">Habilidades</a>
             <a href="#projetos" class="nav-link">Projetos</a>
@@ -140,7 +142,9 @@
 
     <footer class="roda-pe">
         Site autoral de Rafael Alves.&copy;
-    </footer>    
+    </footer>
+    <button id="btnTopo" class="btnTopo" title="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
 </body>
 
 </html>

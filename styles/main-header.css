@@ -45,3 +45,19 @@
     background-color: rgba(51, 51, 51, 0.2); 
     box-shadow: none;
 }
+
+/* Menu Hamburgue */
+.mobile-menu-toggle {
+    display: none; /* Fica escondido por padrão */
+    border: none;
+    background: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--cor-principal);
+    z-index: 1001; /* Isso deixa o hamburgue acima do menu */
+}
+
+.main-header.sticky {
+    backdrop-filter: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}

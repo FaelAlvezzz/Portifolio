@@ -5,6 +5,7 @@
 @import './media-query.css';
 @import './cta.css';
 @import './tipografia.css';
+@import './btnTopo.css';
 
 :root {
     --cor-principal: #00b400;
