@@ -75,18 +75,22 @@ if (menuToggle && mainNav) {
    ======================================= */
 
 const btnTopo = document.getElementById('btnTopo');
+const secaoSobre = document.getElementById('sobre-mim');
 
 //Evento que monitora a rolagem da página
-window.addEventListener('scroll', function() {
+if (btnTopo && secaoSobre) {
+    window.addEventListener('scroll', function () {
+        const posicaoSecao = secaoSobre.offsetTop; // Pega a posição da seção "Sobre Mim"
 
-    if (document.documentElement.scrollTop > 300) {
-        btnTopo.style.display = 'block';
-    }else {
-        btnTopo.style.display = 'none'; 
-    }
-});
+        if(window.scrollY > posicaoSecao){
+            btnTopo.style.display = 'block';
+        }else {
+            btnTopo.style.display = 'none';
+        }
+    });
+}
 
-//Evento do clique para voltar ao topo
+//Função clique do botão
 btnTopo.addEventListener('click', function () {
     window.scrollTo({
         top: 0,
